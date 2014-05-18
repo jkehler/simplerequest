@@ -14,3 +14,12 @@ resp, err := simplerequest.Get("http://jeffkehler.com", header)
 println(resp.Body)
 ```
 
+Response
+--------
+
+Url: Original requested Url
+FinalUrl: Final url after all redirects
+Body: Text body of text or json responses
+ContentType: Content-Type header
+ContentLength: Content-Length header
+
